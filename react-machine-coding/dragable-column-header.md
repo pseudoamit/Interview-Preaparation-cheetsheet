@@ -1,5 +1,3 @@
----
-
 # Question 15: Build a Resizable Table with Draggable Column Headers
 
 ## Problem Statement

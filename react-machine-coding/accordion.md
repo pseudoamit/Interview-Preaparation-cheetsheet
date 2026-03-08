@@ -1,5 +1,3 @@
----
-
 # Question 16: Build a Multi-Expand Accordion Component
 
 ## Problem Statement

@@ -1,11 +1,3 @@
-# Data-Intensive Frontend System Design Questions
-
-This document contains **high-level frontend system design questions focused on large-scale data visualization and performance**.
-
-These questions evaluate a candidate's ability to design **high-performance, data-heavy frontend applications**.
-
----
-
 # 1. Analytical Dashboard with One Million Records
 
 Design a **high-performance analytical dashboard** that processes and visualizes **1 million records**.
@@ -92,13 +84,3 @@ If yes:
 ### Scalability
 
 If the dataset grows to **10 million records**, how would your design change?
-
-### User Experience
-
-How would you ensure:
-
-- Smooth UI interactions
-- Fast initial loading
-- Responsive chart updates
-
----

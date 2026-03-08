@@ -1,10 +1,3 @@
-# Frontend System Design Interview Questions (Senior React / Frontend Engineer)
-
-This document contains **high-level system design questions** commonly asked in interviews for **Senior Frontend Engineers (7+ years)**.  
-The questions focus on **architecture, API design, data flow, scalability, and real-time UI systems**.
-
----
-
 # 1. Stock Trading Platform (Groww-like Application)
 
 Design a **high-level system architecture for a stock trading application similar to Groww**.

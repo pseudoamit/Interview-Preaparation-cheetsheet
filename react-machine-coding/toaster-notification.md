@@ -1,5 +1,3 @@
----
-
 # Question 3: Build a Configurable Toast Notification System
 
 ## Problem Statement

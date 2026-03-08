@@ -1,4 +1,3 @@
----
 # Question 8: Build a Checkbox Selection Component
 
 ## Problem Statement
@@ -7,8 +6,7 @@ Build a **Checkbox Selection Component in React** where a user can select **mult
 
 Unlike radio buttons (where only one option can be selected), checkboxes allow **multiple selections simultaneously**.
 
-The component should manage the **selected options using React state** and update the UI accordingly.
----
+## The component should manage the **selected options using React state** and update the UI accordingly.
 
 ## Requirements
 

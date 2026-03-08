@@ -1,4 +1,3 @@
----
 # Question 17: Build an Autocomplete Search Component
 
 ## Problem Statement
@@ -7,8 +6,7 @@ Build an **Autocomplete (Typeahead) component** in React that suggests results t
 
 As the user types, the component should display a **list of matching suggestions** based on the input.
 
-Users should also be able to **select a suggestion**, which will populate the input field.
----
+## Users should also be able to **select a suggestion**, which will populate the input field.
 
 # Requirements
 

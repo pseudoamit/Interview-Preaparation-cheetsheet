@@ -1,4 +1,3 @@
----
 # Question 2: Implement Infinite Data Loading (Row-by-Row API Fetch)
 
 ## Problem Statement
@@ -9,8 +8,7 @@ The API initially returns **10 records**, and once the **last record is rendered
 
 This process should continue **until the API stops returning data**.
 
-The goal is to create a **progressive data loading system** that dynamically loads records as the user reaches the bottom of the list.
----
+## The goal is to create a **progressive data loading system** that dynamically loads records as the user reaches the bottom of the list.
 
 ## Requirements
 

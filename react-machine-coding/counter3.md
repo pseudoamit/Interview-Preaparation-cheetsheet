@@ -1,5 +1,3 @@
----
-
 # Question 6: Build a Cyclic Counter (1 to 10 Loop)
 
 ## Problem Statement

@@ -1,5 +1,3 @@
----
-
 # Question 10: Build a Multi-Select Searchable Dropdown Component
 
 ## Problem Statement

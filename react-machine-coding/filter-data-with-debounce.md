@@ -1,4 +1,3 @@
----
 # Question 13: Fetch Data and Implement Debounced Search Filtering
 
 ## Problem Statement
@@ -9,8 +8,7 @@ The application should also include a **search input box** that allows users to 
 
 However, the filtering should **not happen on every keystroke**. Instead, the filtering logic should execute **after a delay of 500 milliseconds** once the user stops typing.
 
-This behavior is commonly known as **debouncing**.
----
+## This behavior is commonly known as **debouncing**.
 
 # Requirements
 

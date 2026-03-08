@@ -1,5 +1,3 @@
----
-
 # Question 11: Build a Master–Child Checkbox Selection System
 
 ## Problem Statement

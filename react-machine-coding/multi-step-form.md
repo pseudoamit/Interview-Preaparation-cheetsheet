@@ -1,4 +1,3 @@
----
 # Question 19: Build a Multi-Step Form with Validation
 
 ## Problem Statement
@@ -7,8 +6,7 @@ Build a **Multi-Step Form** in React that divides a form into **three separate s
 
 Users should be able to navigate through the steps and fill in the required information.
 
-The **Submit button will only appear on the final step**, and submission should only be allowed if **all required fields from Step 1 and Step 2 are completed**.
----
+## The **Submit button will only appear on the final step**, and submission should only be allowed if **all required fields from Step 1 and Step 2 are completed**.
 
 # Requirements
 

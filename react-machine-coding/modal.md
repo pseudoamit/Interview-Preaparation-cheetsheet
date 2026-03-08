@@ -1,5 +1,3 @@
----
-
 # Question 18: Build a Modal Component with Outside Click Close
 
 ## Problem Statement

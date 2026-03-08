@@ -1,4 +1,3 @@
----
 # Question 9: Build a Dropdown Selection Component (Single Select)
 
 ## Problem Statement
@@ -9,8 +8,7 @@ The dropdown should display a list of values when opened, and when a user select
 
 Only **one option can be selected at a time**.
 
-The goal is to implement a **controlled dropdown component using React state**.
----
+## The goal is to implement a **controlled dropdown component using React state**.
 
 ## Requirements
 

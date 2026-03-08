@@ -1,11 +1,3 @@
-# Senior React Developer – Behavioral & Managerial Interview Questions
-
-A structured list of behavioral and managerial interview questions commonly asked for **Senior / Lead React Developers (7+ years experience)**.
-
-These questions focus on **leadership, ownership, collaboration, delivery, and professional growth**.
-
----
-
 # 1. Introduction & Background
 
 1. Can you briefly introduce yourself?

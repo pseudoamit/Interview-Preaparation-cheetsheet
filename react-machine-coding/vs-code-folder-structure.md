@@ -1,5 +1,3 @@
----
-
 # Question 14: Build a VS Code-Style Folder Explorer
 
 ## Problem Statement

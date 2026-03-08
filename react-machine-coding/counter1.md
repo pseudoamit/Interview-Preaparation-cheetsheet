@@ -1,5 +1,3 @@
----
-
 # Question 4: Build a Counter with Start, Pause, and Reset Controls
 
 ## Problem Statement

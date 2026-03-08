@@ -1,10 +1,3 @@
-# React Interview Questions (7+ Years Experience)
-
-A curated list of React interview questions grouped by difficulty and topic.  
-This list is structured for **senior React developers (7+ years experience)**.
-
----
-
 # 1. Must-Know React Fundamentals
 
 1. What is React and why is it used?

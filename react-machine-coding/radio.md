@@ -1,4 +1,3 @@
----
 # Question 7: Build a Radio Selection Component
 
 ## Problem Statement
@@ -7,8 +6,7 @@ Build a **Radio Selection Component in React** where a user can select **only on
 
 This component should behave like a **standard radio button group**, meaning that when a user selects a new option, the **previously selected option should automatically be deselected**.
 
-The goal is to implement **controlled radio inputs using React state**.
----
+## The goal is to implement **controlled radio inputs using React state**.
 
 ## Requirements
 

@@ -1,11 +1,3 @@
-# JavaScript Interview Questions – Interview Experience
-
-This document contains a structured list of **JavaScript interview questions** that were asked during a technical interview for a **Senior Frontend / JavaScript Developer role**.
-
-The questions mainly focused on **core JavaScript fundamentals, execution model, polyfills, and real-world coding problems**.
-
----
-
 # 1. Core JavaScript Concepts
 
 ## 1.1 Closures

@@ -1,5 +1,3 @@
----
-
 # Question 5: Build a Configurable Countdown Timer
 
 ## Problem Statement

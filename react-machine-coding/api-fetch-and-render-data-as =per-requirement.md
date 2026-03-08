@@ -1,5 +1,3 @@
----
-
 # Question 12: Fetch Data from Multiple APIs and Render Dynamic UI (List, Table, Cards)
 
 ## Problem Statement

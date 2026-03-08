@@ -1,9 +1,3 @@
-# Node.js Backend Interview Questions (7+ Years)
-
-A structured list of **senior-level Node.js backend interview questions** covering architecture, system design, databases, scalability, microservices, performance, and security.
-
----
-
 # 1. Node.js Fundamentals & Internals
 
 1. What is **Node.js**, and how is it different from traditional server-side runtimes?
