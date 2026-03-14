@@ -243,3 +243,74 @@
 1. What is the Backend for Frontend (BFF) pattern?
 2. Why is BFF used in frontend architectures?
 3. How does BFF improve security and performance?
+
+## 19. React Design Pattern – Compound Component Pattern
+
+Design a **Compound Component Pattern** in React.
+
+The Compound Component Pattern allows multiple related components to **share implicit state and behavior** through a parent component, while giving consumers a **flexible and declarative API**.
+
+### Problem Statement
+
+Create a component system for a **Dropdown** using the Compound Component Pattern.
+
+The API should look like this:
+
+```jsx
+<Dropdown>
+  <Dropdown.Trigger>Open Menu</Dropdown.Trigger>
+
+  <Dropdown.Menu>
+    <Dropdown.Item>Profile</Dropdown.Item>
+    <Dropdown.Item>Settings</Dropdown.Item>
+    <Dropdown.Item>Logout</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
+```
+
+### Requirements
+
+- `Dropdown` should manage the **open / close state** internally.
+- `Dropdown.Trigger` should **toggle the dropdown menu**.
+- `Dropdown.Menu` should render its children **only when the dropdown is open**.
+- `Dropdown.Item` should represent **individual menu items**.
+- All child components should **share state from the parent component**.
+
+### Expected Behavior
+
+1. Initially the menu should be **closed**.
+2. Clicking **Trigger** should open the menu.
+3. Clicking **Trigger again** should close the menu.
+4. Menu items should only be visible when the dropdown is open.
+
+### Example Usage
+
+```jsx
+function App() {
+  return (
+    <Dropdown>
+      <Dropdown.Trigger>Open Menu</Dropdown.Trigger>
+
+      <Dropdown.Menu>
+        <Dropdown.Item>Profile</Dropdown.Item>
+        <Dropdown.Item>Settings</Dropdown.Item>
+        <Dropdown.Item>Logout</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+  );
+}
+```
+
+### Expected UI Behavior
+
+```
+Initial State:
+[Open Menu]
+
+After Click:
+[Open Menu]
+
+Profile
+Settings
+Logout
+```

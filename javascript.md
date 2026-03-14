@@ -509,3 +509,113 @@ The interview mainly evaluated the following areas:
 - Memoization
 - LazyMan pattern
 - Generator functions
+
+## 5. JavaScript Function Design – Function Chaining
+
+Write a JavaScript function `Add` such that every function call returns the **sum of all numbers passed across chained calls**.
+
+### Example Calls
+
+```javascript
+Add(1, 2)(3, 4, 5, 6)(1)(6, 8, 3, 4, 5, 6);
+Add(1, 2, 5, 6, 7)(5, 6)(1, 7, 8)(6, 8, 5, 6);
+Add(1)(3, 4, 5, 6, 9, 11, 23)(1, 11, 111)(66);
+Add(1, 2, 5, 6, 7, 8)(3)(1)(6);
+```
+
+### Problem Requirement
+
+- Each function call can receive **multiple numbers**.
+- Calls are **chained**.
+- The function should **accumulate all numbers across all calls**.
+- The final result should be the **sum of all numbers passed**.
+
+### Example
+
+```javascript
+Add(1, 2)(3, 4)(5);
+```
+
+### Expected Output
+
+```
+15
+```
+
+---
+
+## 6. Follow-Up Question – Dynamic Function Calls
+
+Modify the previous problem with the following changes:
+
+### Requirements
+
+- The number of chained function calls should be **dynamic**.
+- The chain should **terminate when an empty call `()` is made**.
+- The function should return the **sum of all numbers passed before the empty call**.
+
+### Example Calls
+
+```javascript
+Add(1, 2)(3, 4)(5, 6)();
+Add(10)(20)(30)(40)(50)();
+```
+
+### Expected Output
+
+```
+Add(1,2)(3,4)(5,6)() -> 21
+Add(10)(20)(30)(40)(50)() -> 150
+```
+
+---
+
+## 7. Custom Array Method – Implement `myFlat()`
+
+Implement a custom method `myFlat()` that **flattens a nested array**.
+
+### Example Input
+
+```javascript
+[1, [3, 4, [5, 6, 7], 11], 102].myFlat();
+```
+
+### Expected Output
+
+```javascript
+[1, 3, 4, 5, 6, 7, 11, 102];
+```
+
+### Requirements
+
+- The function should **flatten nested arrays recursively**.
+- It should work for **arrays of any depth**.
+
+---
+
+## 8. Design Pattern – Singleton Pattern
+
+- Design a **Singleton class** in JavaScript.
+
+### Requirements
+
+- Only **one instance** of the class should ever be created.
+- Multiple calls to create an instance should **return the same instance**.
+- Prevent **direct instantiation from outside** if possible.
+
+### Example Usage
+
+```javascript
+const instance1 = Singleton.getInstance();
+const instance2 = Singleton.getInstance();
+
+console.log(instance1 === instance2);
+```
+
+### Expected Output
+
+```
+true
+```
+
+- Both variables should reference the **same instance of the class**.
