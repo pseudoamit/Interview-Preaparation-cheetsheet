@@ -619,3 +619,35 @@ true
 ```
 
 - Both variables should reference the **same instance of the class**.
+
+## 10. JavaScript Function Chaining – Calculator Executor
+
+Write a JavaScript utility that supports **method chaining** like the following:
+
+```javascript
+exec().add(1, 2).multiply(45, 5).divide(12, 3);
+```
+
+### Requirements
+
+- The function should support **method chaining**.
+- Each method should **perform its operation and accumulate the result**.
+- The final result should be returned when `.value()` (or similar) is called.
+- Supported operations:
+  - `add`
+  - `multiply`
+  - `divide`
+
+---
+
+### Example Usage
+
+```javascript
+exec().add(1, 2).multiply(45, 5).divide(12, 3).value();
+```
+
+### Expected Output
+
+```
+114.75
+```
